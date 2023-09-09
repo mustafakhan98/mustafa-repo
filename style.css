@@ -1,0 +1,126 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    max-width: 1400px;
+    margin: auto;
+    padding: 40px 20px;
+}
+/* Header Code Starts Here */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #2fb5e1;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    column-gap: 30px;
+}
+
+header ul a {
+    text-decoration: none;
+}
+
+
+header ul a {
+    padding: 10px 20px;
+    color: #fff;
+    background: #000;
+    border-radius: 5px;
+}
+a.about-me {
+    background: #f1f133;
+    color: #000;
+}
+
+a.hobbies {
+    background: #df758a;
+}
+
+a.education {
+    background: #84606a;
+}
+
+a.contact {
+    background: #cf8c8c;
+}
+/* About Me Section Starts Here */
+section#about-me {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    background: #fdfdb3;
+}
+
+section#about-me h3 {
+    font-size: 48px;
+}
+
+section#about-me p {
+    font-size: 24px;
+}
+section#about-me img {
+    width: 50%;
+}
+
+section#about-me .text {
+    width: 50%;
+}
+/* Hobies Section Starts Here */
+
+section#hobbies {padding: 40px;background: #f3dadf;}
+section#hobbies .icon-with-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section#hobbies .icon {
+    text-align: center;
+}
+/* Education Section Starts here */
+section#education img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 1000px;
+    object-position: top;
+}
+section#education  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 555;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    max-width: 80%;
+}
+
+section#education {
+    position: relative;
+    max-height: 1000px;
+}
+
+section#education .overlay-text h3 {
+    font-size: 48px;
+}
+/* Footer Starts Here */
+footer ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    column-gap: 60px;
+}
+
+footer {
+    background: #def4fb;
+    padding: 40px;
+}
